@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Museu Nacional</title>
+</head>
+<body>
+    
+    <!-- START OF CONTAINER -->
+    <div id="container"> 
+
+        <!-- START OF HEADER -->
+        <header>
+            <div id="logo">
+                <h1><a href="#">Museu Nacional</a></h1>
+            </div>
+
+            <!-- START OF TOP NAVIGATION -->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisas</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </nav>
+            <!-- END OF TOP NAVIGATION -->
+
+        </header>
+        <!-- END OF HEADER -->
+
+        <!-- START OF PAGE CONTENT -->
+        <div id="principal">
+
+            <!-- START OF CONTENT -->
+            <div id="content">
+
+                <section id="principal-image">
+                    <img src="./content/museu.png" alt="">
+                </section>
+
+                <section id="posts">
+
+                    <article id="video">
+                        <h3>Conheça o museu </h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="map">
+                        <h3>Encontre o museu </h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2spt!4v1676679027125!5m2!1spt-BR!2spt" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+
+                    <article id="exhibitions">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#"><strong>Veja todos</strong></a></li>
+                        </ul>
+                    </article>
+
+                    <article id="history">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos officiis corporis iste cumque illum repellat expedita assumenda. Hic dolores vero fuga eveniet odio? Veniam esse aliquid iure accusantium voluptates natus, quod dolor dicta temporibus consequuntur, fugiat commodi quaerat quisquam quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aspernatur?
+                        </p>
+                    </article>
+
+                </section>
+
+            </div>
+
+            <!-- END OF CONTENT -->
+
+            <aside>
+
+                <section id="brief">
+                    <img src="./content/depoimento.png" alt="">
+                </section>
+
+                <!-- START OF VISIT SECTION -->
+                <section id="visit">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Agendamento</legend>
+
+                            <label for="data">Data</label>
+                            <input type="text" id="data" value="dd/mm/aaaa" class="value">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input type="number" id="qtd" value="1" min="1" class="value" style="width: 40px;">
+                        </fieldset>
+
+                        <input type="submit" value="Verificar disponibilidade" class="button">
+
+                    </form>
+                </section>
+                <!-- END OF VISIT SECTION -->
+
+                <!-- START OF IMAGE SHOW SECTION -->
+                <section id="show">
+                    <h4>Galeria de Fotos</h4>
+
+                    <a href="#">
+                        <img src="./content/imagem1.jpg" alt="" height="93px" width="93px">
+                    </a>
+                    <a href="#">
+                        <img src="./content/imagem2.jpg" alt="" height="93px" width="93px">
+                    </a>
+                    <a href="#">
+                        <img src="./content/imagem3.jpg" alt="" height="93px" width="93px">
+                    </a>
+                    <a href="#">
+                        <img src="./content/imagem4.jpg" alt="" height="93px" width="93px">
+                    </a>
+
+                </section>
+                <!-- END OF IMAGE SHOW SECTION -->
+
+            </aside>
+            <div style="clear: both;"></div>
+        </div>
+        <!-- START OF PAGE CONTENT -->
+
+    </div>
+    <!-- END OF CONTAINER -->
+
+    <footer>
+            <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisas</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contatos</a></li>
+            </ul>
+            <div style="clear: both;"></div>
+            2023 <a href="#">Museu Nacional</a> - Todos os direitos reservados
+    </footer>
+
+</body>
+</html>
